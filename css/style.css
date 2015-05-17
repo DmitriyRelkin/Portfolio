@@ -126,3 +126,9 @@ body{
 .sevice-column p {
 	padding: 15px 0;
 }
+#about-me {
+	height: 340px;
+}
+#experience i {
+	font-weight: 600;
+}
