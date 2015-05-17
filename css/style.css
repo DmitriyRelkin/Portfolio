@@ -1,0 +1,84 @@
+html{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  min-height: 100% !important;
+  overflow-x: hidden !important;
+}
+body{
+  min-height: 100% !important;
+  position: relative;
+  overflow-x: hidden !important;
+}
+.gp {
+	background:url(../images/header_background10.jpg) fixed no-repeat;
+	height: 1050px;
+}
+.header {
+	margin-bottom: 0;
+} 	
+.greting {
+  background: rgba(228, 124, 20, 0.68);
+  color: aliceblue;
+  text-align: center;
+}	
+.greting h1 {
+	font-size: 66px;
+	font-family: fantasy;
+}
+.greting-block {
+	padding-top: 30%;
+}
+#contact {
+  background-image: url(../images/map-image.png);
+  background-color: #301100;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contact h2 {
+	font-size: 30px;
+  color: rgb(119, 119, 119);
+}
+#info {
+	height: 300px;
+	padding-top: 4%;
+}
+#work {
+	background-color: #F7F7F7;
+	height: 670px;
+}
+#message {
+	resize: vertical; 
+}
+.citation {
+	height: 370px;
+	background:url(../images/bg21.jpg) fixed no-repeat;
+}
+.citation h2 {
+	  padding-top: 9%;
+	  color: rgba(255, 255, 255, 0.74);
+	  width: 62%;
+	  text-align: center;
+	  margin: 0 auto;
+}
+.citation2 h2 {
+	  padding-top: 9%;
+	  color: rgba(255, 255, 255, 0.74);
+	  width: 62%;
+	  text-align: center;
+	  margin: 0 auto;
+}
+.citation2 {
+	height: 370px;
+	background:url(../images/bg41.jpg) fixed no-repeat;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #222222;
+  border-top: 1px solid #222;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}	
+.panel-footer p {
+	color: grey;
+}
