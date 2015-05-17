@@ -63,7 +63,7 @@ body{
 }
 #work {
 	background-color: #F7F7F7;
-	height: 670px;
+	padding: 25px 0;
 }
 #message {
 	resize: vertical; 
