@@ -1,0 +1,42 @@
+.all-content a {
+  color: black;
+}
+.content-img img {
+  width: 100%;
+}
+#button-content {
+  color: white;
+  background-color: #F65B3C;
+  padding: 3px 8px;
+  margin-top: 2px;
+}
+.chek-me {
+  margin-top: 5px;
+}
+.bottom-form {
+  font-weight: 600;
+}
+.bottom-form-orange a {
+  font-weight: 600;
+  color: #F65B3C;
+}
+.search-nav {
+  height: 23px;
+}
+.name-col h4 {
+  color: rgb(252, 61, 6);
+  font-weight: 600;
+}
+/*#color-head {
+  color: wait;
+}*/
+.header-color {
+  background-color: #FFFFFF;
+  border-color: #000000;
+}
+.header-menu li:hover {
+  background-color: black;
+}
+.header-menu li:hover {
+  color: white;
+}

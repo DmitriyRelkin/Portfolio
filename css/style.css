@@ -16,6 +16,18 @@ body{
 }
 .header {
 	margin-bottom: 0;
+}
+.logo {
+  position: absolute;
+  top: 200px;
+  left: 502px;
+  border-left: 5px solid rgb(255, 142, 31);
+  padding-left: 8px;
+  font-weight: bold;
+  color: rgb(255, 142, 31);
+}
+.logo h1 {
+	
 } 	
 .greting {
   background: rgba(228, 124, 20, 0.68);
@@ -40,8 +52,14 @@ body{
   color: rgb(119, 119, 119);
 }
 #info {
-	height: 300px;
-	padding-top: 4%;
+	padding: 4%;
+	background-color: rgba(200, 196, 184, 0.83);
+}
+#info i {
+	font-size: 95px;
+	padding-top: 33px;
+	color: rgba(255, 127, 0, 0.73);
+
 }
 #work {
 	background-color: #F7F7F7;
@@ -81,4 +99,20 @@ body{
 }	
 .panel-footer p {
 	color: grey;
+}
+.sevice-column {
+	border: solid 3px;
+	border-style: double;
+	border-color: #ddd;
+	width: 27%;
+	background: #f6f3f3;
+}
+.sevice-column h2 {
+	text-align: center;
+  	border-bottom: solid 3px;
+  	border-color: #ddd;
+	padding-bottom: 30px;
+}
+.sevice-column p {
+	padding: 15px 0;
 }
