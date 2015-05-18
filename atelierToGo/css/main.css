@@ -176,14 +176,17 @@ font-style: normal;
 #first-name {
 	position: relative;
     right: -15px;
+    color: rgb(182, 176, 176);
 }
 #last-name {
 	position: relative;
     left: 13px;
+    color: rgb(182, 176, 176);
 }
 #email {
 	position: relative;
     left: 44px;
+    color: rgb(182, 176, 176);
 }
 .required:after {
 	content: "*";
