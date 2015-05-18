@@ -1,9 +1,10 @@
 html {
+	overflow-x: hidden;
 	margin: 0 auto; 
 	width: 100%;
 }
 body {
-	overflow-x: hidden;
+
 	background: black; 
 	font: 12.5px/1.3 'cg';
 }
