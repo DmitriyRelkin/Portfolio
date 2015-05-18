@@ -239,6 +239,7 @@ hr {
 .right-column-b {
 	float: left;
 	width: 50%;
+	padding-bottom: 7%;
 }
 .bottom-kontent{
 	clear: both;
