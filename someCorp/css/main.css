@@ -228,6 +228,7 @@ hr {
 .right-column-a {
 	width: 50%;
 	float: left;
+	padding-bottom: 50px;
 }
 .left-column-a p {
 	margin-right: 50px;
@@ -239,6 +240,7 @@ hr {
 .right-column-b {
 	float: left;
 	width: 50%;
+	padding-bottom: 50px;
 }
 .bottom-kontent{
 	clear: both;
