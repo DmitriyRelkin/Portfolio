@@ -43,7 +43,7 @@ body{
 }
 #contact {
   background-image: url(../images/map-image.png);
-  background-color: #301100;
+  background-color: #6F6F6F;
   background-position: center;
   background-repeat: no-repeat;
   padding: 47px 0;
@@ -63,7 +63,7 @@ body{
 
 }
 #work {
-	background-color: #F7F7F7;
+	background-color: #D0CDC3;
 	padding: 25px 0;
 }
 #work p {
@@ -131,4 +131,13 @@ body{
 }
 #experience i {
 	font-weight: 600;
+}
+#other-contact {
+	color: rgba(216, 216, 216, 1);
+}
+#text-info h2 {
+	color: rgba(216, 216, 216, 1);
+}
+#text-info h3 {
+	color: rgba(216, 216, 216, 1);
 }
