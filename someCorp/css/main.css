@@ -1,13 +1,17 @@
 html {
-	overflow-x: hidden;
-	height: 2025px;
+  overflow-x: hidden;
+  height: 100%;
 }
 body {
- min-width: 1350px;
- overflow-x: hidden;
-
+  min-width: 1350px;
+  overflow-x: hidden;
+  height: 100%;
 }
-
+.main {
+  height: 100%;
+  position: relative;
+  min-height: 1940px;
+}
 .header-top {
 	background: #484848;
 	height: 45px;
@@ -262,8 +266,9 @@ hr {
 .Copyright	{
 	background: #484848;
 	height: 58px;
-	clear: both;
-	font-family: initial;
+	bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 .Copyright h3 {
 	font-size: 14px;
