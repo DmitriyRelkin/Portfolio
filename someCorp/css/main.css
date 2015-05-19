@@ -5,7 +5,7 @@ html {
 body {
   min-width: 1350px;
   overflow-x: hidden;
-  height: 2073px;
+  height: 100%;
 }
 .main {
   height: 100%;
