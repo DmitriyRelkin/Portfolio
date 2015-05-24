@@ -18,16 +18,18 @@ body{
 	margin-bottom: 0;
 }
 .logo {
-  position: absolute;
-  top: 200px;
-  left: 502px;
+ 
   border-left: 5px solid rgb(255, 142, 31);
   padding-left: 8px;
+  top: -21px;
   font-weight: bold;
   color: rgb(255, 142, 31);
 }
 .logo h1 {
-	
+	text-shadow: 1px 0px, rgb(98, 61, 61) -1px 1px;
+}
+.logo p {
+	text-shadow: 1px 0px, rgb(98, 61, 61) -1px 1px;
 } 	
 .greting {
   background: rgba(228, 124, 20, 0.68);
@@ -37,9 +39,10 @@ body{
 .greting h1 {
 	font-size: 66px;
 	font-family: fantasy;
+	text-shadow: 1px 0px, rgb(98, 61, 61) -1px 1px;
 }
 .greting-block {
-	padding-top: 30%;
+	padding-top: 20%;
 }
 #contact {
   background-image: url(../images/map-image.png);
@@ -114,8 +117,12 @@ body{
 	border: solid 3px;
 	border-style: double;
 	border-color: #ddd;
-	width: 27%;
 	background: #f6f3f3;
+}
+#info .sevice-column {
+	max-width: 292px;
+	margin: 0 auto;
+	margin-bottom: 6px;
 }
 .sevice-column h2 {
 	text-align: center;
@@ -124,20 +131,43 @@ body{
 	padding-bottom: 30px;
 }
 .sevice-column p {
-	padding: 15px 0;
+	padding: 15px 15px;
 }
 #about-me {
-	height: 340px;
-}
-#experience i {
-	font-weight: 600;
+	/*height: 340px;*/
 }
 #other-contact {
 	color: rgba(216, 216, 216, 1);
+	margin-top: 30px;
 }
 #text-info h2 {
 	color: rgba(216, 216, 216, 1);
 }
 #text-info h3 {
 	color: rgba(216, 216, 216, 1);
+}
+.icon-info {
+	text-align: center;
+}
+/*XS*/
+@media all and (max-width: 767px) {
+ h2 {
+ 	  font-size: 26px;
+ }
+ .thumbnail {
+ 	  max-width: 314px;
+ 	  margin: 0 auto;
+ }  
+}
+/*SM*/
+@media all and (min-width: 768px) {
+ 
+}
+/*MD*/
+@media all and (min-width: 992px) {
+   
+}
+/*LD*/
+@media all and (min-width: 1200px) {
+
 }
