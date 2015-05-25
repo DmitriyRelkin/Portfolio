@@ -58,12 +58,14 @@ body {
 	float: left;
 	clear: both;
 	text-decoration: none;
-	font-family: 'Prociono-Regular-webfont';
-	font-size: 60px;
-	color: #D9D9B9;
+	font-family: 'KnewaveOutlineRegular';
+	font-size: 80px;
+	font-weight: 700;
+	color: #1FDFB0;
 }
 .logo a+a {
 	font-size: 10px;
+	font-family: sans-serif;
 }
 .navigations {
 	float: right;
@@ -71,7 +73,7 @@ body {
 
 }
 .navigations a {
-	color: #D9D5B4;
+	color: #1FDFB0;
 	text-decoration: none;
 	font-size: 10px;
 
@@ -183,7 +185,7 @@ body {
   	font-size: 30px;
 }
 .content {
-	height: 1015px;
+	height: 1100px;
 	background: url( "../images/2.png" );
 	margin-top: -50px;
 }
@@ -311,6 +313,7 @@ transition: all 0.3s ease-in-out;
 	display: inline-block;
 	width: 10%;
 	margin-right: 60px;
+	height: 286px;
 }
 .left-column h2,.middle-column h2,.right-column h2 {
 	color: #2A989E;
