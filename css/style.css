@@ -149,6 +149,63 @@ body{
 .icon-info {
 	text-align: center;
 }
+.validation-error{
+  padding: 5px;
+  color: rgb(255, 123, 0);
+}
+.has-error .form-control {
+  border-color: #FF7A3E;
+  border-width: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #FF7A3E;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0),0 0 6px #FF7B00;
+}
+.has-error .form-control:focus {
+  border-color: rgba(137, 30, 30, 0.64);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #E57A7A;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0),0 0 6px #E57A7A;
+}
+.message {
+    -moz-animation: cssAnimation 1s ease-in 3s forwards;
+    -webkit-animation: cssAnimation 1s ease-in 3s forwards;
+    -o-animation: cssAnimation 1s ease-in 3s forwards;
+    animation: cssAnimation 1s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.message {
+	position: fixed;
+	top: 65px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 250px;
+	text-align: center;
+	height: 20px;
+	padding: 15px 5px;
+	color: black;
+	text-shadow: 1px 0px, rgb(0, 0, 0) 1px 0px;
+	font-family: monospace;
+	display: block;
+	font-size: 15px;
+	border-radius: 12px;
+}
+.message.Success {
+	border: solid 2px rgba(0, 255, 234, 0.32);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #39B2AB;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0),0 0 6px #41BAB3;
+	background-color: rgba(0, 255, 255, 0.23);
+}
+.message.Error{
+	border: solid 2px rgba(255, 0, 0, 0.32);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #B23939;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0),0 0 6px #BA4141;
+	background-color: rgba(255, 0, 0, 0.23);
+	height: 55px;
+}
+.message p {
+	position: relative;
+  	top: -10px;
+}
 /*XS*/
 @media all and (max-width: 767px) {
  h2 {
