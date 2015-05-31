@@ -191,8 +191,8 @@ input.input {
 .banner-img, .banner-content li{
 		margin-top: 3px;
 }
-.main{
-	min-width: 1071px;
+.main{/*
+	min-width: 1071px;*/
 }
 .banner-content img{
 	width: 150px;
