@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	min-width: 1076px;
+
 }
 
 ol, ul {
@@ -192,7 +192,7 @@ input.input {
 		margin-top: 3px;
 }
 .main{
-	min-width: 945px;
+	min-width: 1071px;
 }
 .banner-content img{
 	width: 150px;
