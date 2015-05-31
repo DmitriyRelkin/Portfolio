@@ -1,3 +1,10 @@
+
+@font-face {
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: normal;
+src: local('Kaushan Script'), url('KaushanScript-Regular.woff') format('woff');
+}
 html{
   width: 100%;
   height: 100%;
@@ -9,6 +16,10 @@ body{
   min-height: 100% !important;
   position: relative;
   overflow-x: hidden !important;
+}
+#logo-text {
+  font-family: 'Kaushan Script';
+  font-size: 28px;
 }
 .gp {
 	background:url(../images/header_background10.jpg) fixed no-repeat;
