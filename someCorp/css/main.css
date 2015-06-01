@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	min-width: 1187px;
 }
 
 ol, ul {
@@ -100,9 +99,9 @@ table {
 	padding: 3px 12px;
 	border-width: 2px 0;
 	border-style: solid none;
-	border-color: #0037C4;;
+	border-color: #ec4444;
 	border-radius: 4px;
-	background: #0040E8;
+	background: #ec4444;
 	transition: 0.2s;
 }
 input.input {
@@ -170,18 +169,19 @@ input.input {
 .banner-content{
 	margin-top: 30px;
 	float: left;
-	width: 38%
+	width: 50%
 }
 .banner-img img{
-    width: 100%;
-    padding-left: 246px;
+	width: 409px;
+	height: 321px;
+	position: relative;
+	top: -30px;
 }
 .main-content {
 	margin-top: 90px;
-	min-width: 1237px;
 }
 .banner-content h3 {
-	color: rgb(58, 113, 255);
+	color: rgb(237, 69, 68);
 	font-size: 60px;
 	font-family: arial;
 	margin-bottom: 15px;
@@ -190,10 +190,11 @@ input.input {
 	color: #a1a1a1;
 }
 .banner-img, .banner-content li{
-		margin-top: 3px;
+	color: #44a7ec;
+	margin-top: 3px;
 }
-.main{/*
-	min-width: 1071px;*/
+.main{
+	min-width: 945px;
 }
 .banner-content img{
 	width: 150px;
@@ -249,10 +250,10 @@ input.input {
 	min-height: 140px;
 }
 .Blackberry-img {
-	width: 92px;
+	width: 110px;
 }
 .WinPhon-img {
-	width: 76px;
+	width: 90px;
 }
 .PC-img {
 	width: 116px;
@@ -320,7 +321,6 @@ input.input {
 .copyright-background{
 	height: 70px;
 	width: 100%;
-	min-width: 1185px;
 	background: rgb(72, 72, 72);
 	position: absolute;
 	left: 0;
