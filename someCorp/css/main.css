@@ -178,6 +178,7 @@ input.input {
 }
 .main-content {
 	margin-top: 90px;
+	min-width: 1237px;
 }
 .banner-content h3 {
 	color: rgb(58, 113, 255);
@@ -319,6 +320,7 @@ input.input {
 .copyright-background{
 	height: 70px;
 	width: 100%;
+	min-width: 1185px;
 	background: rgb(72, 72, 72);
 	position: absolute;
 	left: 0;
