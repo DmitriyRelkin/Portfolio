@@ -51,7 +51,7 @@ body{
 .greting h1 {
 	font-size: 66px;
 	font-family: fantasy;
-	text-shadow: 1px 0px, rgb(98, 61, 61) -1px 1px;
+	text-shadow: 1px 0px, rgb(98, 61, 61) -4px 10px;
 }
 .greting-block {
 	padding-top: 20%;
