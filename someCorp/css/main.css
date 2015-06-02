@@ -120,7 +120,7 @@ input.input {
 .navigation-bar li{
 	float: left;
 	background: #dcdcdc;
-	padding: 9px 8px;
+	padding: 9px 3px;
 	border-right: solid 1px rgb(197, 197, 197);
 }
 .navigation-bar a {
