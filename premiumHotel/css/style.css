@@ -1,0 +1,193 @@
+@font-face {
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: normal;
+src: local('Kaushan Script'), url('KaushanScript-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'LeagueScriptNumberOne';
+font-style: normal;
+font-weight: normal;
+src: local('LeagueScriptNumberOne'), url('LeagueScriptNumberOne-Regular.woff') format('woff');
+}
+body {
+  overflow-x: hidden;
+}
+#all-content {
+	background: url(../images/background.jpg) fixed;
+	padding-bottom: 82px;
+}
+#logo-hotel h1{
+  	color: rgb(209, 147, 98);
+  	font-family: 'Kaushan Script';
+  	color: rgba(209, 159, 98, 0.48);
+  	text-shadow: -1px 1px, rgb(106, 53, 0) 3px 3px;
+  	text-align: center;
+  	
+}
+#logo-hotel hr{
+   border-style: groove;
+   border-color: rgb(255, 199, 130);
+}
+#links-nav {
+   border-bottom: 1px rgb(171, 133, 87) solid;
+}
+#slaide {
+	width: 50%;
+	padding-top: 1%;
+}
+.sevice-column h2,p,li{
+	color: white;
+}
+#info {
+	margin-top: 35%;
+}
+#nav-header {
+	background-color: rgba(26, 6, 6, 0);
+  border-color: rgba(8, 8, 8, 0);
+  padding-top: 90px;
+
+}
+.input-group-addon {
+  padding: 0;
+}
+.input-group-addon > label {
+  padding: 8px;
+  margin: 0;
+  cursor: pointer;
+}
+#info h2,p,li{
+	text-align: center;
+}
+#experience li {
+  color: white;
+}
+#info ul {
+	list-style: none;
+  padding: 0;
+}
+.links a {
+	
+}
+#button-main {
+	border-radius: 20px;
+  width: 85px;
+  background-color: #997441;
+  color: rgba(255, 255, 255, 0.68);
+}
+#slaide {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 52px rgba(0, 0, 0, 1);
+  padding: 0px;
+}
+#main-content h4 {
+	color: white;
+}
+#main-content {
+	padding-top: 30px;
+}
+.panel-footer {
+	background-color: black;
+  border-top: 1px solid #AB8557;
+}
+.footer-column p,li  {
+  color: rgb(136, 125, 111)
+}
+#parking img  {
+  position: absolute;
+}
+#wifi img {
+  position: absolute;
+}
+#apple img {
+  position: absolute;
+}
+#right-column-footer ul {
+	list-style: none;
+}
+#columns {
+  border-bottom: 1px rgb(171, 133, 87) solid;
+}
+#right-column-footer ul{
+    padding: 0;
+}
+#copyright-text p {
+    color: #A7A7A7;
+}
+#copyright-text a {
+   color: rgb(136, 125, 111);
+}
+
+
+/*XS*/
+@media all and (max-width: 767px) {
+  #text-column-2 p{
+    width: 114px;
+    margin-left: -36px;
+  }
+  #text-column-3 p {
+    width: 107px;
+    margin-left: -29px;
+   }
+   #text-column-4 {
+    margin-left: -14px;
+   }
+   .service-column {
+    text-align: center;
+   }
+   #info-img {
+     text-align: center;
+   }
+   #parking img {
+    position: absolute;
+    top: -6px;
+    left: -36px;
+   }
+   #wifi img {
+    position: absolute;
+    top: 69px;
+    left: -36px;
+   }
+   #apple img {
+    position: absolute;
+    top: 132px;
+    left: -36px;
+   }
+
+}
+/*SM*/
+@media all and (min-width: 768px) {
+  #links-nav {
+      /*width: 102%;*/
+   }
+   .icon-info img {
+      width: 94%;
+   }
+  #parking img {
+    position: absolute;
+    left: -39px;
+  }
+  #wifi img {
+    position: absolute;
+    left: -39px;
+  }
+  #apple img {
+    position: absolute;
+    left: -39px;
+  }
+  .navbar-nav>li>a {
+    padding: 13px;
+  }
+}
+/*MD*/
+@media all and (min-width: 992px) {
+   #text-column-3 p {
+      width: 115px;
+   }
+   
+ 
+}
+/*LD*/
+@media all and (min-width: 1200px) {
+
+}

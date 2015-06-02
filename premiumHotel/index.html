@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Premium Hotel</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid" id= "all-content">
+          <div class="row">
+            <div class="navbar navbar-inverse" id="nav-header">
+              <div class="container-fluid">
+                <div class="navbar-header ">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="container">
+                    <div class="col-md-10" id="logo-hotel">
+                      <div class="col-md-4 col-md-offset-5">
+                        <h1>Premium Hotel</h1>
+                        <hr>
+                      </div>
+                    </div>
+                  <div class="col-sm-12 col-md-10 col-md-offset-2">
+                    <div class="collapse navbar-collapse links" id="responsive-menu">
+                      <ul class="nav navbar-nav" id="links-nav">
+                        <li>
+                        <a class="page-scroll" href="#">HOME</a>
+                        </li>
+                        <li>
+                        <a class="page-scroll" href="#">ROOMS</a>
+                        </li>
+                        <li>
+                        <a class="page-scroll" href="#">RESTAURANT</a>
+                        </li>
+                        <li>
+                        <a class="page-scroll" href="#">CONFERENCE</a>
+                        </li>
+                        <li>
+                        <a class="page-scroll" href="#">OTHER SERVICE</a>
+                        </li>
+                        <li>
+                        <a class="page-scroll" href="#">CONTACT US</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="selection" id= "reserve-panel">
+                <div class="row">
+                  <div class="container">
+                    <div class="col-sm-12 col-md-10">
+                      <div class="col-sm-4 col-md-4 col-md-offset-1">
+                        <div class="service-date" id="text-column-1">
+                          <p>ONLINE BOOKING</p>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-2 col-md-3">
+                        <div class="col-md-8" id="text-column-2">
+                        <p>Check-in:</p>
+                        </div>
+                        <div class="service-date">
+                          <div class="input-group date"  data-date-format="dd-mm-yyyy">
+                            <input class="span2 form-control" size="16" id="dpd1" type="text" aria-describedby="basic-addon2">
+                            <span class="input-group-addon" id="basic-addon2"><label for="dpd1"><i class="glyphicon glyphicon-calendar"></i></label></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-2 col-md-3">
+                        <div class="col-sm-6 col-md-8" id="text-column-3">
+                        <p>Departure date:</p>
+                        </div>
+                        <div class="service-date">
+                          <div class="input-group date"  data-date-format="dd-mm-yyyy">
+                            <input class="span2 form-control" size="16" id="dpd2" type="text" aria-describedby="basic-addon">
+                            <span class="input-group-addon" id="basic-addon"><label for="dpd2"><i class="glyphicon glyphicon-calendar"></i></label></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-1" id="text-column-4">
+                        <div class="col-md-2 col-md-offset-">
+                          <button class="btn btn-xs" id="button-main" type="button">Reserve</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12" id="main-content">
+                <div class="container slaid" id="slaide">
+                    <div id="carousel" class="carousel slide">
+                      <!--Индикаторы слайдов-->
+                        <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                        <li data-target="#carousel" data-slide-to="4"></li>
+                        </ol>
+                        <!--Слайды-->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="images/slide1.jpg" alt="">
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/slide2.jpg" alt="">
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/slide3.jpg" alt="">
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/slide4.jpg" alt="">
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/slide5.jpg" alt="">
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Стрелки переключения слайдов-->
+                    
+                      <a href="#carousel" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span> 
+                      </a>
+                      <a href="#carousel" class="right carousel-control" data-slide="next">
+                         <span class="glyphicon glyphicon-chevron-right"></span> 
+                      </a>
+                    </div>
+                </div>
+              </div>
+            <div class="selection" id="info">
+                <div class="row"> 
+                  <div class="container">
+                    <div class="col-xs-12 col-sm-4" id="experience">
+                      <div class="sevice-column">
+                        <div class="row">
+                        <div class="icon-info col-xs-12 col-md-offset-1" id="info-img">
+                          <img src="images/module1.png" alt="">
+                        </div>
+                        </div>
+                        <h2>Personal</h2>
+                        <p>Premium Hotel, Lipetsk's most beautiful hotel of our day, welcomes you! It has been a year our doors have been wide open for you, and we are proud to know that you and your partners have been able to come to appreciate the comfort we create.</p>
+                      </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4" id="experience">
+                      <div class="sevice-column">
+                        <div class="row">
+                        <div class="icon-info col-xs-12 col-md-offset-1" id="info-img">
+                          <img src="images/module2.png" alt="">
+                        </div>
+                        </div>
+                        <h2>Other</h2>
+                        <p>Waiting for you! No secret that you can deal with partners right here where you live. This is what we have for it..</p>
+                      </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4" id="experience">
+                      <div class="sevice-column">
+                        <div class="row">
+                        <div class="icon-info col-xs-12 col-md-offset-1" id="info-img">
+                          <img src="images/module3.png" alt="">
+                        </div>
+                        </div>
+                        <h2>Other contact</h2>
+                          <ul>
+                            <li>Premium Hotel</li>
+                            <li>398se005, Lipe, Ma sggq., 1vbd</li>
+                            <li>(8888)12-34-56, (7890)55-77-88</li>
+                            <li>(915)850-08-08</li>
+                            <li>E-mail: 5170mail.com</li>
+                          </ul>
+                      </div> 
+                    </div>
+                  </div>
+                </div> 
+            </div>
+      </div>
+    </div>
+    <footer class="panel-footer footer-static-bottom"id="footer">
+      <div class="container">
+        <div class="rov">
+          <div class="container" id="columns">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-3 col-md-4 col-md-offset-3" id="left-column-footer">
+              <div class="footer-column-1">
+                <div class="row" id="parking">
+                <img src="images/icon_parking.png" alt="">
+                <p><strong>Free guarded parking</strong></p>
+                <p>For personal and corporate vehicles.</p>
+                </div>
+                <div class="row" id="wifi">
+                <img src="images/wifi.png" alt="">
+                <p><strong>Free Wi-Fi</strong></p>
+                <p>All over the territory of the hotel.</p>
+                </div>
+                <div class="row" id="apple">
+                <img src="images/apple.png" alt="">
+                <p><strong>Free IPad 2</strong></p>
+                <p>In the hotel hall for unlimited use.</p>
+                </div>
+              </div> 
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-4" id="right-column-footer">
+              <div class="footer-column-2">
+                <div class="row">
+                  <ul>
+                    <li>Mini-bar</li>
+                    <li>LCD-TV</li>
+                    <li>Fan, towels, slippers</li>
+                    <li>Mirror, scales</li>
+                    <li>Safe, phone</li>
+                    <li>Free WiFi</li>
+                    <li>Room-service</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="selection" id="copyright-text">
+          <p>Copyright © 2015 Dmitriy Relkin All Rights Reserved. | <a href="#/">Disclaimer</a> &amp; <a href="#/">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
