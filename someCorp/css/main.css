@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 
 ol, ul {
@@ -250,16 +251,16 @@ input.input {
 	min-height: 140px;
 }
 .Blackberry-img {
-	width: 110px;
+	width: 77px;
 }
 .WinPhon-img {
-	width: 90px;
+	width: 76px;
 }
 .PC-img {
-	width: 116px;
+	width: 89px;
 }
 .iPad-img{
-	width: 95px
+	width: 80px
 }
 .product-list img {
 	float: right;
