@@ -93,6 +93,7 @@ table {
 .button{
 	cursor: pointer;
 	font-family: arial;
+	text-transform: uppercase;
 	display: inline-block;
 	color: white;
 	text-decoration: none;
